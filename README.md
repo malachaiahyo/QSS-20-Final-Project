@@ -37,9 +37,9 @@ status, start_date, end_date, note_start, dorm_date_start, valid_until_start, va
 
 **Initial Analysis**
 
-Identify the Top 10 countries where entities are physically located (based on the address country).
+Identify the Top 10 countries where entities are physically located (based on the address country)
 
-Identify the Top 10 jurisdictions where entities are incorporated.
+Identify the Top 10 jurisdictions where entities are incorporated
 
 Visualize these using a bar chart with a gradient color scheme:
 
