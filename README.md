@@ -47,7 +47,7 @@ Blue: Top 10 physical locations
 
 Orange: Top 10 jurisdictions
 
-**Planned Visualization**
+**Potential Future Analyses and Visualizations**
 
 A heat map time series visualization that maps:
 
