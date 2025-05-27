@@ -4,9 +4,9 @@ Group members: Rohan Kommuri, Justin Lee, Justin Pare, Malachai Ah Yo
 
 **Goal:**
 
-Using the ICIJ Offshore Leaks dataset, our goal is to uncover patterns and drivers of offshore wealth flows and movement. We want to undestand how entity type (LLC, LTD, foundations, charities, etc.) varies across jurisdiction, analyze the changes in popularity of specific jurisdictions over time and assess how these shifts may be influenced by laws and/or enforcement trends, and map regional concentrations of offshore leaks activity to better understand how certain countries or territories facilitate financial secrecy. 
+Using the ICIJ Offshore Leaks dataset, we want to undestand how entity type (LLC, LTD, foundations, charities, etc.) varies across jurisdictions and regions, analyze the changes in popularity of specific jurisdictions over time and assess how these shifts may be influenced by laws and/or enforcement trends that happened around the same time as any shifts, and map regional concentrations of offshore leaks activity. We hope that this anlysis will help us to better understand how the movement of offshore wealth firms has changed over time and illuminate the impact of any legal, fiscal, and geographic forces which shape offshore wealth flows. 
 
-We then will visualize these trends using a heat map time series that tracks the physical locations of entities and their jurisdictions over time. This visualization will use incorporation_date_start and inactivation_date_start to animate the rise and decline of offshore registrations in different regions, with each category shown in distinct colors
+Potential forms of analyis we hope to use on the data are listed below in **Potential Future Analyses and Visualizations**
 
 **Data:**
 
