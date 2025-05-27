@@ -47,6 +47,9 @@ Blue: Top 10 physical locations
 
 Orange: Top 10 jurisdictions
 
+**Potential Issues to Look At**
+Some potential issues that we could review would be how the datasets were merged together as well as the filtering and cleaning of the data. Specifically, we want to ensure that the integrity of our merged dataset is not compromised with inconsistencies that make it different from the individual datasets (ie, the entity type associated with a specific node_id in the merged data set is different than the entity type for that node id in the original datasets). We also want to prevent and or handle missing and null values in the merged dataset for our analysis. 
+
 **Potential Future Analyses and Visualizations**
 
 A heat map time series visualization that maps:
