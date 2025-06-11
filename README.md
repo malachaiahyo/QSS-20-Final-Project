@@ -38,7 +38,7 @@ Groups and counts entities by their physical‐address country and by their lega
 
 **Outputs generated:**
 - [Figure 2](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%202.png), a Bar chart of Top 10 Countries where entities are physically based
-- [output/Figure 3](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%203.png), a Bar chart of Top 10 Jurisdictions for entities
+- [Figure 3](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%203.png), a Bar chart of Top 10 Jurisdictions for entities
 
 **[02_sankey_officer_and_jurisdiction_countries.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/02_sankey_officer_and_jurisdiction_countries.ipynb)**
 
