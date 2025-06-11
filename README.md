@@ -37,8 +37,8 @@ Our merged and cleaned version of these datasets is stored in the cloud via Goog
 Groups and counts entities by their physical‐address country and by their legal jurisdiction and plots top 10 charts for these. 
 
 **Outputs generated:**
-- [Figure 2.png](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%202.png), a Bar chart of Top 10 Countries where entities are physically based
-- [output/Figure 3.png](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%203.png), a Bar chart of Top 10 Jurisdictions for entities
+- [Figure 2](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%202.png), a Bar chart of Top 10 Countries where entities are physically based
+- [output/Figure 3](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%203.png), a Bar chart of Top 10 Jurisdictions for entities
 
 **[02_sankey_officer_and_jurisdiction_countries.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/02_sankey_officer_and_jurisdiction_countries.ipynb)**
 
@@ -51,7 +51,7 @@ Groups and counts entities by their physical‐address country and by their lega
 - Selects the top officer countries and shows the relationships between them and the top 5 jurisdictions (Bahamas, British Virgin Islands, Malta, Bermuda, Barbados)
 
 **Outputs generated:**
-- [Figure 4.png](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%204.png), a Sankey diagram showing officer to entity jurisdiction flows, complete with self-loops
+- [Figure 4](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%204.png), a Sankey diagram showing officer to entity jurisdiction flows, complete with self-loops
 
 **[03_officers_samejurisdiction.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/03_officers_samejurisdiction.ipynb)**
 
@@ -64,7 +64,7 @@ Groups and counts entities by their physical‐address country and by their lega
 - Plots a horizontal bar chart of those counts
 
 **Outputs generated:**
-- [Figure 5.png](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%205.png), a bar chart of the Top 10 jurisdictions by number of officers registered in the same jurisdiction as their entities
+- [Figure 5](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%205.png), a bar chart of the Top 10 jurisdictions by number of officers registered in the same jurisdiction as their entities
 
 **[code/04_OECD_2000_investigations.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/04_OECD_2000_investigations.ipynb)**
 
@@ -72,6 +72,14 @@ Groups and counts entities by their physical‐address country and by their lega
 - ICIJ_Merged Dataset
 
 **Actions performed:**
+- Filter to entities in OECD 2000 blacklist jurisdictions and extract incorporation and inactivation years.
+- Count annual incorporations and inactivations (1980–2020) and plot a time-series chart with a marker at 2000.
+- Calculate each jurisdiction’s share of ended entities (2000–2003) and plot a Top 10 horizontal bar chart.
+- Calculate each jurisdiction’s share of new incorporations (2004–2007) and plot a Top 10 horizontal bar chart.
+- Compare jurisdictional incorporation distributions before 2000 vs. after 2007, compute percentages, and render side-by-side Top 10 bar charts with OECD vs. non-OECD coloring.
 
 **Outputs generated:**
-
+- [Figure 6](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%206.png), aline chart of yearly incorporations and inactivations in OECD 2000 blacklist jurisdictions, with the 2000 sanction marked.
+- [Figure 7](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%207.png), a horizontal bar chart of the Top 10 jurisdictions by percentage of ended entities (2000–2003).
+- [Figure 8](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%208.png), ahorizontal bar chart of the Top 10 jurisdictions by percentage of new incorporations (2004–2007).
+- [Figure 9](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%209.png), which is a set of side-by-side bar charts of Top 10 jurisdictions’ share of incorporations before 2000 and after 2007, color-coded for OECD blacklist vs. other jurisdictions.
