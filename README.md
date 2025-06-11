@@ -16,6 +16,38 @@ Our merged and cleaned version of these datasets is stored in the cloud via Goog
 
 ## Code
 
+[code/00_data_merging_cleaning.ipynb]((https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/00_data_merging_cleaning.ipynb))
+
+**Inputs used:**
+
+**Actions performed:**
+
+**Outputs generated:**
+
+[Codename](link)
+
+**Inputs used:**
+
+**Actions performed:**
+
+**Outputs generated:**
+
+[Codename](link)
+
+**Inputs used:**
+
+**Actions performed:**
+
+**Outputs generated:**
+
+[Codename](link)
+
+**Inputs used:**
+
+**Actions performed:**
+
+**Outputs generated:**
+
 [Codename](link)
 
 **Inputs used:**
