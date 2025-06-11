@@ -46,9 +46,9 @@ Groups and counts entities by their physical‐address country and by their lega
 - ICIJ_Merged Dataset
 
 **Actions performed:**
-- Filters to officer→entity links
+- Filters to officer to entity links
 - Counts relationships by officer’s country (countries_start) and entity’s jurisdiction (jurisdiction_description_end).
-- Selects the top officer countries and shows the relationships between them and the top 5 jurisdictions (Bahamas, British Virgin Islands, Malta, Bermuda, Barbados).
+- Selects the top officer countries and shows the relationships between them and the top 5 jurisdictions (Bahamas, British Virgin Islands, Malta, Bermuda, Barbados)
 
 **Outputs generated:**
 - [Figure 4.png](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%204.png), a Sankey diagram showing officer to entity jurisdiction flows, complete with self-loops
@@ -56,14 +56,20 @@ Groups and counts entities by their physical‐address country and by their lega
 **[03_officers_samejurisdiction.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/03_officers_samejurisdiction.ipynb)**
 
 **Inputs used:**
+- ICIJ_Merged Dataset
 
 **Actions performed:**
+- Filters officer to entity links to where the officer’s country matches the entity’s jurisdiction.
+- Counts unique officers per jurisdiction and selects the top 10.
+- Plots a horizontal bar chart of those counts
 
 **Outputs generated:**
+- [Figure 5.png](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%205.png), a bar chart of the Top 10 jurisdictions by number of officers registered in the same jurisdiction as their entities
 
 **[code/04_OECD_2000_investigations.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/04_OECD_2000_investigations.ipynb)**
 
 **Inputs used:**
+- ICIJ_Merged Dataset
 
 **Actions performed:**
 
