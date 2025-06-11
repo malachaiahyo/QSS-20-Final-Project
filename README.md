@@ -16,7 +16,7 @@ Our merged and cleaned version of these datasets is stored in the cloud via Goog
 
 ## Code
 
-[00_data_merging_cleaning.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/00_data_merging_cleaning.ipynb)
+**[00_data_merging_cleaning.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/00_data_merging_cleaning.ipynb)**
 
 **Inputs used:**
 
@@ -24,7 +24,7 @@ Our merged and cleaned version of these datasets is stored in the cloud via Goog
 
 **Outputs generated:**
 
-[01_top_10_graphs.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/01_top_10_graphs.ipynb)
+**[01_top_10_graphs.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/01_top_10_graphs.ipynb)**
 
 **Inputs used:**
 
@@ -32,7 +32,7 @@ Our merged and cleaned version of these datasets is stored in the cloud via Goog
 
 **Outputs generated:**
 
-[02_sankey_officer_and_jurisdiction_countries.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/02_sankey_officer_and_jurisdiction_countries.ipynb)
+**[02_sankey_officer_and_jurisdiction_countries.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/02_sankey_officer_and_jurisdiction_countries.ipynb)**
 
 **Inputs used:**
 
@@ -40,7 +40,7 @@ Our merged and cleaned version of these datasets is stored in the cloud via Goog
 
 **Outputs generated:**
 
-[03_officers_samejurisdiction.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/03_officers_samejurisdiction.ipynb)
+**[03_officers_samejurisdiction.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/03_officers_samejurisdiction.ipynb)**
 
 **Inputs used:**
 
@@ -48,7 +48,7 @@ Our merged and cleaned version of these datasets is stored in the cloud via Goog
 
 **Outputs generated:**
 
-[code/04_OECD_2000_investigations.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/04_OECD_2000_investigations.ipynb)
+**[code/04_OECD_2000_investigations.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/04_OECD_2000_investigations.ipynb)**
 
 **Inputs used:**
 
