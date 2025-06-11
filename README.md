@@ -10,9 +10,9 @@ Potential forms of analyis we hope to use on the data are listed below in **Pote
 
 **Data:**
 
-For our analysis, we used the Raw Datasets from the ICIJ Offshore Leaks Database which can be downloaded [here] (https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip)
+For our analysis, we used the Raw Datasets from the ICIJ Offshore Leaks Database which can be downloaded [here](https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip)
 
-Our cleaned and merged dataset is stored in the cloud via google drive and can be accessed [here] (https://drive.google.com/file/d/1Z9M-1Y1Pn37JZcPvXb2bPylqt_4_Cf7u/view?usp=sharing)
+Our cleaned and merged dataset is stored in the cloud via google drive and can be accessed [here](https://drive.google.com/file/d/1Z9M-1Y1Pn37JZcPvXb2bPylqt_4_Cf7u/view?usp=sharing)
 
 This dataset represents a merged table from the ICIJ’s Entities, Addresses, and Relationships files, focused on linking each offshore entity to its registered address
 
