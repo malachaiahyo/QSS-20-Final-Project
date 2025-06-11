@@ -19,26 +19,39 @@ Our merged and cleaned version of these datasets is stored in the cloud via Goog
 **[00_data_merging_cleaning.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/00_data_merging_cleaning.ipynb)**
 
 **Inputs used:**
+- Raw ICIJ datasets
 
 **Actions performed:**
+- Merges the raw ICIJ datasets into a single dataset based on the relationships between nodes as outlined in the relationships dataset.
 
 **Outputs generated:**
+- Most importantly produces: **ICIJ_Merged.csv** which is the merged and cleaned version of the raw data. 
+- Also produces a sample of this merged and cleaned data. Along with this a merged dataset with no cleaning as well as a sample of that dataset are produced. 
 
 **[01_top_10_graphs.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/01_top_10_graphs.ipynb)**
 
 **Inputs used:**
+- ICIJ_Merged and Entities datasets 
 
 **Actions performed:**
+Groups and counts entities by their physical‐address country and by their legal jurisdiction and plots top 10 charts for these. 
 
 **Outputs generated:**
+- [Figure 2.png](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%202.png), a Bar chart of Top 10 Countries where entities are physically based
+- [output/Figure 3.png](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%203.png), a Bar chart of Top 10 Jurisdictions for entities
 
 **[02_sankey_officer_and_jurisdiction_countries.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/02_sankey_officer_and_jurisdiction_countries.ipynb)**
 
 **Inputs used:**
+- ICIJ_Merged Dataset
 
 **Actions performed:**
+- Filters to officer→entity links
+- Counts relationships by officer’s country (countries_start) and entity’s jurisdiction (jurisdiction_description_end).
+- Selects the top officer countries and shows the relationships between them and the top 5 jurisdictions (Bahamas, British Virgin Islands, Malta, Bermuda, Barbados).
 
 **Outputs generated:**
+- [Figure 4.png](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/output/Figure%204.png), a Sankey diagram showing officer to entity jurisdiction flows, complete with self-loops
 
 **[03_officers_samejurisdiction.ipynb](https://github.com/malachaiahyo/QSS-20-Final-Project/blob/main/code/03_officers_samejurisdiction.ipynb)**
 
