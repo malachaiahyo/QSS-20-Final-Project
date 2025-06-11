@@ -1,0 +1,24 @@
+\begin{table}[ht]
+\centering
+\caption{Summary of Raw ICIJ Offshore Leaks Data Tables}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|p{6cm}|p{4cm}|}
+\hline
+\textbf{Dataset} & \textbf{Node Type} & \textbf{Description} & \textbf{Key Columns} \\ \hline
+
+\texttt{nodes-entities} & Entity & Lists each offshore legal vehicle (company, trust, foundation, etc.) as a distinct node. & \texttt{node\_id, name}, \texttt{jurisdiction}, \texttt{incorporation\_date}, \texttt{status} \\ \hline
+
+\texttt{nodes-officers} & Officer & Enumerates individuals (directors, shareholders, beneficiaries, nominee directors) associated with one or more entities. & \texttt{node\_id, name}, \texttt{date\_of\_birth, nationality}, \texttt{officer\_role} \\ \hline
+
+\texttt{nodes-intermediaries} & Intermediary & Captures professional service providers (law firms, trust companies, nominee directors) that establish or manage offshore entities. & \texttt{node\_id}, \texttt{provider\_name}, \texttt{jurisdiction}, \texttt{service\_type} \\ \hline
+
+\texttt{nodes-addresses} & Address & Contains physical and mailing locations linked to entities, officers, and intermediaries; used to identify shared registered offices. & \texttt{node\_id, street}, \texttt{city, region/state}, \texttt{postal\_code}, \texttt{country} \\ \hline
+
+\texttt{nodes-others.csv} & Other & Includes miscellaneous node types that do not fit into entity, officer, intermediary, or address—e.g., registry or document nodes. & \texttt{node\_id, node\_type}, \texttt{description} \\ \hline
+
+\texttt{relationships.csv} & Relationship & Defines directed edges between two node IDs, indicating the type of link (e.g., \texttt{officer\_of}, \texttt{intermediary\_for}, \texttt{registered\_address\_for}) and its active dates. & \texttt{start\_node\_id}, \texttt{end\_node\_id}, \texttt{relationship\_type}, \texttt{start\_date}, \texttt{end\_date} \\ \hline
+
+\end{tabular}
+}
+\label{tab:icij_raw_tables}
+\end{table}
