@@ -1,6 +1,6 @@
 # QSS-20-Final-Project
 
-**Group members:** Justin Lee, Justin Pare, Malachai Ah Yo, Rohan Kommuri
+**Group members:** Justin Paré, Justin Lee, Malachai Ah Yo, Rohan Kommuri
 
 ## Description
 
